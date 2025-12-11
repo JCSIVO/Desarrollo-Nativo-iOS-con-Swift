@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		13B76D3F2EA4E8FC00348C2E /* 13_Struct_class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 13_Struct_class.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13B76D382EA4E8B800348C2E = {
+			isa = PBXGroup;
+			children = (
+				13B76D3F2EA4E8FC00348C2E /* 13_Struct_class.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		13B76D392EA4E8B800348C2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 13B76D3C2EA4E8B800348C2E /* Build configuration list for PBXProject "13_struct_class" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13B76D382EA4E8B800348C2E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		13B76D3D2EA4E8B800348C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		13B76D3E2EA4E8B800348C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B76D3C2EA4E8B800348C2E /* Build configuration list for PBXProject "13_struct_class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B76D3D2EA4E8B800348C2E /* Debug */,
+				13B76D3E2EA4E8B800348C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13B76D392EA4E8B800348C2E /* Project object */;
+}

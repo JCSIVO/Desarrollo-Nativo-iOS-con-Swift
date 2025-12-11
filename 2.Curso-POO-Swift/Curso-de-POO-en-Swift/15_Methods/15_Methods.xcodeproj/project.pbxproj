@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		133D450C2EA6CF470072430F /* 15_Methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 15_Methods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		133D45052EA6CF270072430F = {
+			isa = PBXGroup;
+			children = (
+				133D450C2EA6CF470072430F /* 15_Methods.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		133D45062EA6CF270072430F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 133D45092EA6CF270072430F /* Build configuration list for PBXProject "15_Methods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 133D45052EA6CF270072430F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		133D450A2EA6CF270072430F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		133D450B2EA6CF270072430F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133D45092EA6CF270072430F /* Build configuration list for PBXProject "15_Methods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133D450A2EA6CF270072430F /* Debug */,
+				133D450B2EA6CF270072430F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 133D45062EA6CF270072430F /* Project object */;
+}

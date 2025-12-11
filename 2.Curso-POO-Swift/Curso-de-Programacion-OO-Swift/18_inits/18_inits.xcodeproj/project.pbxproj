@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		135BA0762EAD17E6007E18D5 /* 18_inits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 18_inits.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		135BA06F2EAD17C9007E18D5 = {
+			isa = PBXGroup;
+			children = (
+				135BA0762EAD17E6007E18D5 /* 18_inits.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		135BA0702EAD17C9007E18D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 135BA0732EAD17C9007E18D5 /* Build configuration list for PBXProject "18_inits" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 135BA06F2EAD17C9007E18D5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		135BA0742EAD17C9007E18D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		135BA0752EAD17C9007E18D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		135BA0732EAD17C9007E18D5 /* Build configuration list for PBXProject "18_inits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				135BA0742EAD17C9007E18D5 /* Debug */,
+				135BA0752EAD17C9007E18D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 135BA0702EAD17C9007E18D5 /* Project object */;
+}

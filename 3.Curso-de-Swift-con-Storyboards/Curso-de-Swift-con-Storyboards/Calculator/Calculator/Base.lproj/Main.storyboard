@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="fill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="zRZ-n2-XL5">
+                                <rect key="frame" x="20" y="50" width="353" height="752"/>
+                                <subviews>
+                                    <!-- Display -->
+                                    <label opaque="NO" contentMode="left" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSo-xP-Zp7">
+                                        <rect key="frame" x="0" y="0" width="353" height="80"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <color key="textColor" red="0.941" green="0.862" blue="0.752" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+
+                                    <!-- Row 1 -->
+                                    <stackView axis="horizontal" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="row1">
+                                        <rect key="frame" x="0" y="100" width="353" height="60"/>
+                                        <subviews>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btnAC">
+                                                <state key="normal" title="AC"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btnSign">
+                                                <state key="normal" title="+/-"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btnPercent">
+                                                <state key="normal" title="%"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btnDivide">
+                                                <state key="normal" title="/"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+
+                                    <!-- Row 2 -->
+                                    <stackView axis="horizontal" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="row2">
+                                        <rect key="frame" x="0" y="170" width="353" height="60"/>
+                                        <subviews>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btn7">
+                                                <state key="normal" title="7"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btn8">
+                                                <state key="normal" title="8"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btn9">
+                                                <state key="normal" title="9"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btnX">
+                                                <state key="normal" title="×"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+
+                                    <!-- Row 3 -->
+                                    <stackView axis="horizontal" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="row3">
+                                        <rect key="frame" x="0" y="240" width="353" height="60"/>
+                                        <subviews>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btn4">
+                                                <state key="normal" title="4"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btn5">
+                                                <state key="normal" title="5"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btn6">
+                                                <state key="normal" title="6"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btnMinus">
+                                                <state key="normal" title="-"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+
+                                    <!-- Row 4 -->
+                                    <stackView axis="horizontal" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="row4">
+                                        <rect key="frame" x="0" y="310" width="353" height="60"/>
+                                        <subviews>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btn1">
+                                                <state key="normal" title="1"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btn2">
+                                                <state key="normal" title="2"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btn3">
+                                                <state key="normal" title="3"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btnPlus">
+                                                <state key="normal" title="+"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+
+                                    <!-- Row 5 -->
+                                    <stackView axis="horizontal" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="row5">
+                                        <rect key="frame" x="0" y="380" width="353" height="60"/>
+                                        <subviews>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btn0">
+                                                <state key="normal" title="0"/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btnDot">
+                                                <state key="normal" title="."/>
+                                            </button>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" buttonType="system" id="btnEqual">
+                                                <state key="normal" title="="/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zRZ-n2-XL5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="leading"/>
+                            <constraint firstItem="zRZ-n2-XL5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="top"/>
+                            <constraint firstAttribute="trailing" secondItem="zRZ-n2-XL5" secondAttribute="trailing" constant="20" id="trailing"/>
+                            <constraint firstAttribute="bottom" secondItem="zRZ-n2-XL5" secondAttribute="bottom" constant="20" id="bottom"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
+

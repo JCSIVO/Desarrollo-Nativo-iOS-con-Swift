@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1330270B2EAC1E4F00549393 /* 17_inheritance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 17_inheritance.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		133027042EAC1E3500549393 = {
+			isa = PBXGroup;
+			children = (
+				1330270B2EAC1E4F00549393 /* 17_inheritance.playground */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		133027052EAC1E3500549393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 133027082EAC1E3500549393 /* Build configuration list for PBXProject "17_inheritance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 133027042EAC1E3500549393;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		133027092EAC1E3500549393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		1330270A2EAC1E3500549393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133027082EAC1E3500549393 /* Build configuration list for PBXProject "17_inheritance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133027092EAC1E3500549393 /* Debug */,
+				1330270A2EAC1E3500549393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 133027052EAC1E3500549393 /* Project object */;
+}
